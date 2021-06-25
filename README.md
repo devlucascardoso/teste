@@ -1,48 +1,22 @@
-# Prova PHP IST
+# Prova Prática
+![Tela-User](https://user-images.githubusercontent.com/83316119/122696170-dcc6db80-d218-11eb-8f6d-92b84635be68.PNG)
+![Tela-Conta](https://user-images.githubusercontent.com/83316119/122696210-f700b980-d218-11eb-9b85-974a0708694d.PNG)
+![Tela-Mov](https://user-images.githubusercontent.com/83316119/122696212-f9631380-d218-11eb-9fa4-2ded92eff30f.PNG)
 
-O desenvolvimento da prova consiste em desenvolver um sistema, conforme especificado nos protótipos abaixo.
-
-**Cadastro de pessoa**
-
-![prova-php-ist](imagens/pessoa.png)
-
-**Cadastro de conta**
-
-![prova-php-ist](imagens/conta.png)
-
-**Cadastro de movimentação**
-
-![prova-php-ist](imagens/movimentacao.png)
-
-Para a realização da prova, deve-se utilizar a linguagem de programação **PHP** e o banco de dados **MySql**.
-
-Alguns pontos em relação ao desenvolvimento: 
-- Fique a vontade para adicionar bibliotecas e ferramentas externas, caso ache necessário.
-- O arquivo de exemplo de conexão com o banco de dados, está no arquivo `app/index.php`.
-- Organize os arquivos do projeto de uma forma adequada (MVC).
-
-## Configuração do Projeto
-
-O projeto utiliza docker para criar um ambiente de desenvolvimento necessário, utilizando **PHP** e **MySql**.
-
-Necessário instalar o docker: https://www.docker.com/get-started
-
-O banco de dados `ist` com a tabela `pessoas` será criado automáticamente via docker, na hora que subir o projeto.
-Mas cabe a você a estruturação e criação das demais tabelas, conforme modelado nos protótipos acima.
-O script SQL de criação das demais tabelas necessárias para o projeto, deve ser adicionados no arquivo `db/ist.sql`.
-
-Após o clone do projeto no **GitHub**, ir via terminal na pasta extraida e executar o comando do docker: `docker-compose up`.
-
-**Atenção:** Se atentar que não pode haver nenhum serviço rodando nas portas `80` e `3306` no computador utilizado para a realização da prova, se tiver, será necessário fechar todos os serviços que utilizam essas portas.
-
-Para verificar se a aplicação subiu corretamento com o docker, digitar no navegador http://localhost/, deverá mostrar uma tela inicial com **Hello World!**, e um exemplo de uma lista com os dados da tabela `pessoas`.
-
+## Pré Requisitos
+Para executar este projeto no modo de desenvolvimento, você precisará ter ativado o Apache e o MySQL da sua máquina.
+Atenção: Se atentar que não pode haver nenhum serviço rodando nas portas 80 e 3306 no computador utilizado para a realização da prova, se tiver, será necessário fechar todos os serviços que utilizam essas portas.
 Abaixo os dados para testar a conexão com o banco de dados:
-- host: localhost
-- port: 3306
-- database: ist
-- user: root
-- password: 123.456
+$servidor = 'localhost';
+$usuario = 'root';
+$senha = '';
+$banco = 'bd_prova';
 
-No mais, desenvolva com qualidade e boa prova! <br> 
-:)
+
+**Execute o aplicativo**
+```
+Abra localhost/sistema_senai/painel-adm/ no seu navegador para vê-lo funcionando!
+```
+
+Atenciosamente,
+Lucas Cardoso Maia
