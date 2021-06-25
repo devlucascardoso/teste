@@ -35,5 +35,5 @@ Abra localhost/sistema_senai/painel-adm/ no seu navegador para vê-lo funcionand
 - OBS: Caso queira utilizar os dados usados do meu Banco de Dados, importe-a do arquivo bd_prova.sql, disponibilizado na pasta sistema_senai
 
 
-Lucas Cardoso Maia <br>
+Lucas Cardoso Maia<br>
 #neverstoplearning
