@@ -44,4 +44,5 @@ Abaixo os dados para testar a conexão com o banco de dados:
 - user: root
 - password: 123.456
 
-No mais, desenvolva com qualidade e boa prova! :)
+No mais, desenvolva com qualidade e boa prova! <br> 
+:)
