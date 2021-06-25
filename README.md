@@ -18,5 +18,5 @@ $banco = 'bd_prova';
 Abra localhost/sistema_senai/painel-adm/ no seu navegador para vê-lo funcionando!
 ```
 
-Atenciosamente,
+Atenciosamente, <br>
 Lucas Cardoso Maia
